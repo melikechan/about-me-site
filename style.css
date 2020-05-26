@@ -27,7 +27,24 @@ div.intro p {
 	margin: 0 -2em;
 }
 
+#my-journey {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+
 #social-media img {
 	width: 24px;
 	height: 24px;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+}
+
+footer p {
+	margin: 0 1%;
 }
